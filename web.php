@@ -1,5 +1,4 @@
-Route::get('/user',function(){
+<?php
 
-    return 'John Doe';
-    
-});
+echo '氏名:'.$_POST['name'];
+exit;
